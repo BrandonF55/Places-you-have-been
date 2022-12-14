@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Places I've been!</title>
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous">
+  </head>
+  <body style="text-align: center; padding-top: 50px; background-color: gray;">
+    <h1>🧙🏼‍♂️ Place I've been to details: 🧙🏼‍♂️</h1>
+    <h2>Place: @Model.CityName</h2>
+    <h2>Durration: @Model.Durration</h2>
+    <h2>Accompanied By: @Model.Accomp</h2>
+    <h2>Journal Entry: @Model.Journal</h2><br>
+    <img src="https://picsum.photos/600/800" alt="random pic"><br>
+
+
+    <a href='/places/new'>Add another place!</a><br>
+    <a href='/places'>View places you've been to!</a>
+  </body>
+</html>
