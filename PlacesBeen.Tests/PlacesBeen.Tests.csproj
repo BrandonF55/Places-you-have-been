@@ -12,7 +12,7 @@
 
   <ItemGroup>
 <!-- Change project name! -->
-    <ProjectReference Include="..\ProjectName\ProjectName.csproj" />  
+    <ProjectReference Include="..\PlacesBeen\PlacesBeen.csproj" />  
   </ItemGroup>
 
 </Project>
